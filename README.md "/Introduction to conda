@@ -1,0 +1,11 @@
+    # conda-qc-commands.md  
+$ conda create -n qc 
+$ conda activate qc
+$ conda search fastqc 
+$ conda install fastqc 
+$ fastqc -v 
+fastQC vO.12.1
+$conda search multiqc
+$conda install multiqc
+$ multiqc -v
+This is multiQC v1.15
